@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="김소이 - 프로필 링크">
+    <meta property="og:description" content="저를 소개합니다.">
+    <meta property="og:image" content="프로필 이모지.PNG">
+    <script type="text/javascript" src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/free/sparta.js"></script>
+    <title>르탄이 - 프로필 링크</title>
+    <title>김소이 프로필</title>
+    <style>
+        body {
+            background-color: #44398A;
+        }
+        .profile {
+            width: 100px;
+            height: 100px;
+
+           /** background-color: green;**/
+            border-radius: 100%;
+
+            border: 2px solid orange;
+
+            background-image: url('프로필 이모지.PNG');
+            background-position: center;
+            background-size: cover;
+        }
+        .main {
+            color: white;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .sub {
+            color: white;
+            font-size: 14px;
+
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
+        .wrap {
+            width: 300px;
+            margin: 30px auto 0px auto;
+
+            /**이미지 센터로 오게 하는 법**/
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .wrap > a {
+            width: 300px;
+            height: 50px;
+            background-color: white;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            color: black;
+            /**텍스트 센터로(이미지 센터로 한 방법과 동일) **/
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            text-decoration: none;
+
+            box-shadow: 3px 3px 5px 0px; /** 오른쪽 아래 번짐정도 두께**/
+        }
+        .wrap > a:hover {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="profile"></div>
+        <h1 class="main">김소이</h1>
+        <P class="sub">저를 소개합니다!</P>
+        <a target="_blank" href="https://blog.naver.com/kse4103/">블로그</a>
+        <a target="_blank" href="https://www.instagram.com/soooii__/">인스타그램</a>
+        <a target="_blank" href="https://mail.naver.com/" style="text-align: center;">메일보내기<br>kse4103@naver.com</a>
+        <a target="_blank" href="https://www.youtube.com/watch?v=W_MUcyXz3r4">기분 전환하세요~^^</a>
+    </div>
+</body>
+</html>
